@@ -20,7 +20,7 @@ test("here we're getting the email of the engineer",() => {
     expect(engineer.getEmail()).toBe("dariel@gmail.com");
 });
 
-test,("here we're getting the github of the engineer",() => {
+test("here we're getting the github of the engineer",() => {
     expect(engineer.getGitHub()).toBe("darielgetshub");
 });
 
