@@ -21,10 +21,10 @@ test("here we're getting the email of the manager",() => {
 });
 
 test,("here we're getting the github of the manager",() => {
-    expect(manager.getGitHub()).toBe("darielgetshub");
+    expect(manager.getOfficeNumber()).toBe("422");
 });
 
 test("here we're getting the role of the manager",() => {
-    expect(manager.getRole()).toBe("Engineer")
+    expect(manager.getRole()).toBe("Manager")
 
 });
